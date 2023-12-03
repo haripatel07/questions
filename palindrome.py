@@ -17,8 +17,4 @@ else:
 if(flag==0):
     palin=x[-1:0:-1]+x
 print("the new palindrone string is ",palin)
-
-
-       
-   
-        
+      
