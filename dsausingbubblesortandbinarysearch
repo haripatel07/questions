@@ -23,7 +23,7 @@ int binarysearch(int arr[],int length)
     right=length-1;
     for (i=0;i<length;i++)
     {
-        mid=(left+(right-left))/2;
+        mid=left+right-left/2;
         if(arr[mid]==target){
             cout<<"The target has been found in:"<<mid;
             break;
